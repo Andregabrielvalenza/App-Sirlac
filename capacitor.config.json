@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "app-sirlac",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

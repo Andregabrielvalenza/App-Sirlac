@@ -1,0 +1,32 @@
+.p-widht-centrado{
+    margin-top: 0px;
+    margin-bottom: 20%;
+}
+.btn-footer-general{
+    width: 100% !important;
+    margin-bottom: 5%;
+}
+#imgwidht{
+    margin-bottom: 10%;
+}
+.div-conten-completo {
+    align-content: end !important;
+    background-image: url('/assets/img/img-fondo2.png') !important;
+    background-position: 50% 25% !important;
+    background-size: 48% !important;
+}
+@media screen and (min-width: 768px)
+{
+    .btn-footer-general{
+        width: 60% !important;
+    }
+    .p-widht-centrado{
+        margin-bottom: 15%;
+    }
+} 
+@media screen and (min-width: 1024px)
+{
+    .div-conten-completo{
+        background-position: 50% 37% !important;
+    }
+}

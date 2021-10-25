@@ -1,0 +1,161 @@
+<!--<ion-header>
+  <ion-toolbar>
+    <ion-title>stock</ion-title>
+  </ion-toolbar>
+</ion-header>-->
+
+<ion-content>
+  <ion-card mode="ios" class="card-header paddin-left-right-general ion-text-center">
+    <ion-card-title mode="ios" class="titulos-content" (click)="back()"><ion-icon name="arrow-back-outline" id="iconheader"></ion-icon> Mi camión</ion-card-title>
+  </ion-card>
+  <ion-grid class="grid-padding-contendor">
+    <ion-row>
+      <ion-col size="12" class="col-padding-cero-top">
+        <ion-row class="ion-align-items-end">
+          <ion-col size="5" class="ion-no-padding">
+            <h5 class="title-ontenedores title-contenor-margint-top">Presentaciones</h5>
+          </ion-col>
+          <ion-col size="7" class="ion-no-padding">
+            <ion-row>
+              <ion-col size="3" class="col-padding-left-right">
+                <div class="div-contenedor">
+                  <img src="assets/img/contenedor1.png" alt="contenedor1" id="contenedor1">
+                </div>
+              </ion-col>
+              <ion-col size="3" class="col-padding-left-right">
+                <div class="div-contenedor">
+                  <img src="assets/img/contenedor2.png" alt="contenedor2" id="contenedor2">
+                </div>
+              </ion-col>
+              <ion-col size="3" class="col-padding-left-right">
+                <div class="div-contenedor">
+                  <img src="assets/img/contenedor3.png" alt="contenedor3" id="contenedor3">
+                </div>
+              </ion-col>
+              <ion-col size="3" class="col-padding-left-right">
+                <div class="div-contenedor">
+                  <img src="assets/img/contenedor4.png" alt="contenedor4" id="contenedor4">
+                </div>
+              </ion-col>
+            </ion-row>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col size="12" class="col-margin-top-padding-start-end">
+        <ion-row class="ion-align-items-center">
+          <ion-col size="5" class="ion-no-padding">
+            <h5 class="ion-no-margin title-ontenedores" >Carga inicial</h5>
+          </ion-col>
+          <ion-col size="7" class="ion-no-padding">
+            <ion-row>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">310</p>
+              </ion-col>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">300</p>
+              </ion-col>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">325</p>
+              </ion-col>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">80</p>
+              </ion-col>
+            </ion-row>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col size="12" class="col-margin-top-padding-start-end">
+        <ion-row class="ion-align-items-center">
+          <ion-col size="5" class="ion-no-padding">
+            <h5 class="ion-no-margin title-ontenedores" >Venta a clientes</h5>
+          </ion-col>
+          <ion-col size="7" class="ion-no-padding">
+            <ion-row>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">310</p>
+              </ion-col>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">300</p>
+              </ion-col>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">325</p>
+              </ion-col>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">80</p>
+              </ion-col>
+            </ion-row>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col size="12" class="col-margin-top-padding-start-end">
+        <ion-row class="ion-align-items-center">
+          <ion-col size="5" class="ion-no-padding">
+            <h5 class="ion-no-margin title-ontenedores" >Venta calle</h5>
+          </ion-col>
+          <ion-col size="7" class="ion-no-padding">
+            <ion-row>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">310</p>
+              </ion-col>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">300</p>
+              </ion-col>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">325</p>
+              </ion-col>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">80</p>
+              </ion-col>
+            </ion-row>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col size="12" class="col-margin-top-padding-start-end">
+        <ion-row class="ion-align-items-center">
+          <ion-col size="5" class="ion-no-padding">
+            <h5 class="ion-no-margin title-ontenedores" >Total</h5>
+          </ion-col>
+          <ion-col size="7" class="ion-no-padding">
+            <ion-row>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">310</p>
+              </ion-col>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">300</p>
+              </ion-col>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">325</p>
+              </ion-col>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">80</p>
+              </ion-col>
+            </ion-row>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col size="12" class="col-margin-top-padding-start-end col-fondo-radius">
+        <ion-row class="ion-align-items-center">
+          <ion-col size="5" class="ion-no-padding">
+            <h5 class="ion-no-margin title-ontenedores" >Saldos</h5>
+          </ion-col>
+          <ion-col size="7" class="ion-no-padding">
+            <ion-row>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">310</p>
+              </ion-col>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">300</p>
+              </ion-col>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">325</p>
+              </ion-col>
+              <ion-col size="3" class="ion-text-center col-padding-left-right">
+                <p class="ion-no-margin p-cantidad-contenedor">80</p>
+              </ion-col>
+            </ion-row>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

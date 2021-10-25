@@ -1,0 +1,73 @@
+<!--<ion-header>
+  <ion-toolbar>
+    <ion-title>pedido-programado</ion-title>
+  </ion-toolbar>
+</ion-header>-->
+
+<ion-content [fullscreen]="true">
+  <ion-card mode="ios" class="card-header paddin-left-right-general ion-text-center">
+    <ion-card-title mode="ios" class="titulos-content" (click)="back()"><ion-icon name="arrow-back-outline" id="iconheader"></ion-icon> Reposiciones</ion-card-title>
+  </ion-card>
+  <div class="ion-text-end paddin-left-right-general div-check margin-top-conten-general">
+    <ion-item lines="none" mode="ios" class="ion-no-padding item-slect">
+      <ion-datetime displayFormat="MM DD YY" placeholder="Select Date" mode="ios"></ion-datetime>
+      <ion-icon name="calendar-outline" id="iconslect"></ion-icon>
+    </ion-item>
+  </div>
+  <ion-grid class="paddin-left-right-general grid-margin-top">
+    <ion-row>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center car-activo" (click)="pedidoSabor()">
+          <img src="assets/img/contenedor1.png" alt="contenedor1">
+          <h5 class="family-poppins-regular h5-tiutlo-card">Surtido</h5>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center">
+          <img src="assets/img/contenedor1.png" alt="contenedor1">
+          <h5 class="family-poppins-regular h5-tiutlo-card">Surtido</h5>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center">
+          <img src="assets/img/contenedor1.png" alt="contenedor1">
+          <h5 class="family-poppins-regular h5-tiutlo-card">Surtido</h5>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center">
+          <img src="assets/img/contenedor1.png" alt="contenedor1">
+          <h5 class="family-poppins-regular h5-tiutlo-card">Surtido</h5>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center">
+          <img src="assets/img/contenedor1.png" alt="contenedor1">
+          <h5 class="family-poppins-regular h5-tiutlo-card">Surtido</h5>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center">
+          <img src="assets/img/contenedor1.png" alt="contenedor1">
+          <h5 class="family-poppins-regular h5-tiutlo-card">Surtido</h5>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center">
+          <img src="assets/img/contenedor1.png" alt="contenedor1">
+          <h5 class="family-poppins-regular h5-tiutlo-card">Surtido</h5>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center">
+          <img src="assets/img/contenedor1.png" alt="contenedor1">
+          <h5 class="family-poppins-regular h5-tiutlo-card">Surtido</h5>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<ion-footer class="ion-no-border ion-text-center footer-margin-top-bottom" mode="ios">
+  <ion-button mode="ios" class="btn-footer-general" (click)="next()">Confirmar pedido</ion-button>
+</ion-footer>
+

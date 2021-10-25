@@ -1,0 +1,25 @@
+ion-content{
+    --padding-bottom: 10%;
+}
+.item-list-ventas{
+    border-bottom: 1px solid #D5D5D5;
+    --padding-start: 10px;
+    --inner-padding-end: 10px;
+    --padding-top: 1.5%;
+    --padding-bottom: 1.5%;
+}
+.label-ventas{
+    font-size: 1.25rem;
+    color: #707070;
+}
+.btn-flecha{
+    --background: #6087A3;
+    --background-activated: #6087A3;
+    --background-hover: #6087A3;
+    --border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    margin: 0;
+    --color: #ffffff;
+    font-size: 1rem;
+}

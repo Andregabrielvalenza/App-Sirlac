@@ -1,0 +1,210 @@
+<!--<ion-header>
+  <ion-toolbar>
+    <ion-title>mis-clientes</ion-title>
+  </ion-toolbar>
+</ion-header>-->
+
+<ion-content [fullscreen]="true">
+  <div class="paddin-left-right-general div-position-fixed">
+    <ion-card mode="ios" class="card-header">
+      <ion-card-title mode="ios" class="titulos-content ion-text-end"><ion-icon name="arrow-back-outline" id="iconheader" (click)="back()"></ion-icon> <span id="spanAgregar" class="family-poppins-semi-bold" (click)="editagregarCliente()">+ Agregar cliente</span></ion-card-title>
+      <ion-card-content mode="ios" class="ion-no-padding card-conten-abecedario">
+        <div class="div-btn-abecedario">
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">A</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">B</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">C</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">D</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">E</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">F</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">G</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding btn-abecedario-activo">A</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">H</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">I</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">J</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">K</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">L</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">M</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">Ñ</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">O</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">P</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">Q</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">R</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">S</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">T</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">U</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">V</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">W</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">X</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">Y</ion-button>
+          <ion-button mode="ios" class="btn-abecedario ion-no-padding">Z</ion-button>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <div id="faq" class="paddin-left-right-general">
+    <ul>
+      <li>
+        <input type="checkbox" checked>
+        <ion-icon name="chevron-down" class="icon-acoordion"></ion-icon>
+        <h2>Este ese nombre SRL</h2>
+        <div class="acoordion-content">
+          <ion-button mode="ios" class="btn-edit ion-no-padding" (click)="editagregarCliente()">
+            <img src="assets/img/editar.png" alt="editar">
+          </ion-button>
+          <div class="div-direc-tel">
+            <ion-icon name="location-outline" class="icon-azul"></ion-icon>
+            <ion-label mode="ios" class="family-poppins-regular label-acoordion">Dirección del cliente Nº 321</ion-label>
+          </div>
+          <div class="div-direc-tel">
+            <ion-icon name="call-outline" class="icon-azul"></ion-icon>
+            <ion-label mode="ios" class="family-poppins-regular label-acoordion">985676831</ion-label>
+          </div>
+        </div>
+      </li>
+      <li>
+        <input type="checkbox" checked>
+        <ion-icon name="chevron-down" class="icon-acoordion"></ion-icon>
+        <h2>Este ese nombre SRL</h2>
+        <div class="acoordion-content">
+          <ion-button mode="ios" class="btn-edit ion-no-padding">
+            <img src="assets/img/editar.png" alt="editar">
+          </ion-button>
+          <div class="div-direc-tel">
+            <ion-icon name="location-outline" class="icon-azul"></ion-icon>
+            <ion-label mode="ios" class="family-poppins-regular label-acoordion">Dirección del cliente Nº 321</ion-label>
+          </div>
+          <div class="div-direc-tel">
+            <ion-icon name="call-outline" class="icon-azul"></ion-icon>
+            <ion-label mode="ios" class="family-poppins-regular label-acoordion">985676831</ion-label>
+          </div>
+        </div>
+      </li>
+      <li>
+        <input type="checkbox" checked>
+        <ion-icon name="chevron-down" class="icon-acoordion"></ion-icon>
+        <h2>Este ese nombre SRL</h2>
+        <div class="acoordion-content">
+          <ion-button mode="ios" class="btn-edit ion-no-padding">
+            <img src="assets/img/editar.png" alt="editar">
+          </ion-button>
+          <div class="div-direc-tel">
+            <ion-icon name="location-outline" class="icon-azul"></ion-icon>
+            <ion-label mode="ios" class="family-poppins-regular label-acoordion">Dirección del cliente Nº 321</ion-label>
+          </div>
+          <div class="div-direc-tel">
+            <ion-icon name="call-outline" class="icon-azul"></ion-icon>
+            <ion-label mode="ios" class="family-poppins-regular label-acoordion">985676831</ion-label>
+          </div>
+        </div>
+      </li>
+      <li>
+        <input type="checkbox" checked>
+        <ion-icon name="chevron-down" class="icon-acoordion"></ion-icon>
+        <h2>Este ese nombre SRL</h2>
+        <div class="acoordion-content">
+          <ion-button mode="ios" class="btn-edit ion-no-padding">
+            <img src="assets/img/editar.png" alt="editar">
+          </ion-button>
+          <div class="div-direc-tel">
+            <ion-icon name="location-outline" class="icon-azul"></ion-icon>
+            <ion-label mode="ios" class="family-poppins-regular label-acoordion">Dirección del cliente Nº 321</ion-label>
+          </div>
+          <div class="div-direc-tel">
+            <ion-icon name="call-outline" class="icon-azul"></ion-icon>
+            <ion-label mode="ios" class="family-poppins-regular label-acoordion">985676831</ion-label>
+          </div>
+        </div>
+      </li>
+      <li>
+        <input type="checkbox" checked>
+        <ion-icon name="chevron-down" class="icon-acoordion"></ion-icon>
+        <h2>Este ese nombre SRL</h2>
+        <div class="acoordion-content">
+          <ion-button mode="ios" class="btn-edit ion-no-padding">
+            <img src="assets/img/editar.png" alt="editar">
+          </ion-button>
+          <div class="div-direc-tel">
+            <ion-icon name="location-outline" class="icon-azul"></ion-icon>
+            <ion-label mode="ios" class="family-poppins-regular label-acoordion">Dirección del cliente Nº 321</ion-label>
+          </div>
+          <div class="div-direc-tel">
+            <ion-icon name="call-outline" class="icon-azul"></ion-icon>
+            <ion-label mode="ios" class="family-poppins-regular label-acoordion">985676831</ion-label>
+          </div>
+        </div>
+      </li>
+      <li>
+        <input type="checkbox" checked>
+        <ion-icon name="chevron-down" class="icon-acoordion"></ion-icon>
+        <h2>Este ese nombre SRL</h2>
+        <div class="acoordion-content">
+          <ion-button mode="ios" class="btn-edit ion-no-padding">
+            <img src="assets/img/editar.png" alt="editar">
+          </ion-button>
+          <div class="div-direc-tel">
+            <ion-icon name="location-outline" class="icon-azul"></ion-icon>
+            <ion-label mode="ios" class="family-poppins-regular label-acoordion">Dirección del cliente Nº 321</ion-label>
+          </div>
+          <div class="div-direc-tel">
+            <ion-icon name="call-outline" class="icon-azul"></ion-icon>
+            <ion-label mode="ios" class="family-poppins-regular label-acoordion">985676831</ion-label>
+          </div>
+        </div>
+      </li>
+      <li>
+        <input type="checkbox" checked>
+        <ion-icon name="chevron-down" class="icon-acoordion"></ion-icon>
+        <h2>Este ese nombre SRL</h2>
+        <div class="acoordion-content">
+          <ion-button mode="ios" class="btn-edit ion-no-padding">
+            <img src="assets/img/editar.png" alt="editar">
+          </ion-button>
+          <div class="div-direc-tel">
+            <ion-icon name="location-outline" class="icon-azul"></ion-icon>
+            <ion-label mode="ios" class="family-poppins-regular label-acoordion">Dirección del cliente Nº 321</ion-label>
+          </div>
+          <div class="div-direc-tel">
+            <ion-icon name="call-outline" class="icon-azul"></ion-icon>
+            <ion-label mode="ios" class="family-poppins-regular label-acoordion">985676831</ion-label>
+          </div>
+        </div>
+      </li>
+      <li>
+        <input type="checkbox" checked>
+        <ion-icon name="chevron-down" class="icon-acoordion"></ion-icon>
+        <h2>Este ese nombre SRL</h2>
+        <div class="acoordion-content">
+          <ion-button mode="ios" class="btn-edit ion-no-padding">
+            <img src="assets/img/editar.png" alt="editar">
+          </ion-button>
+          <div class="div-direc-tel">
+            <ion-icon name="location-outline" class="icon-azul"></ion-icon>
+            <ion-label mode="ios" class="family-poppins-regular label-acoordion">Dirección del cliente Nº 321</ion-label>
+          </div>
+          <div class="div-direc-tel">
+            <ion-icon name="call-outline" class="icon-azul"></ion-icon>
+            <ion-label mode="ios" class="family-poppins-regular label-acoordion">985676831</ion-label>
+          </div>
+        </div>
+      </li>
+      <li>
+        <input type="checkbox" checked>
+        <ion-icon name="chevron-down" class="icon-acoordion"></ion-icon>
+        <h2>Este ese nombre SRL</h2>
+        <div class="acoordion-content">
+          <ion-button mode="ios" class="btn-edit ion-no-padding">
+            <img src="assets/img/editar.png" alt="editar">
+          </ion-button>
+          <div class="div-direc-tel">
+            <ion-icon name="location-outline" class="icon-azul"></ion-icon>
+            <ion-label mode="ios" class="family-poppins-regular label-acoordion">Dirección del cliente Nº 321</ion-label>
+          </div>
+          <div class="div-direc-tel">
+            <ion-icon name="call-outline" class="icon-azul"></ion-icon>
+            <ion-label mode="ios" class="family-poppins-regular label-acoordion">985676831</ion-label>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</ion-content>

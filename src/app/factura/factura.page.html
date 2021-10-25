@@ -1,0 +1,20 @@
+<!--<ion-header>
+  <ion-toolbar>
+    <ion-title>iniciar-ruta</ion-title>
+  </ion-toolbar>
+</ion-header>-->
+
+<ion-content [fullscreen]="true">
+  <div class="paddin-left-right-general">
+    <h1 class="ion-text-center titulos-content titulo-margin-top">Emisión de factura</h1>
+    <p class="ion-text-center family-poppins-regular p-factura">
+      Ingrese aqui la direction del <br> correo electrónico del cliente
+    </p>
+    <ion-item lines="none" mode="ios" class="ion-no-padding item-padding-end">
+      <ion-input type="email" mode="ios" placeholder="ej: juan.perez@mail.com" class="input-form family-poppins-regular ion-text-center"></ion-input>
+    </ion-item>
+  </div>
+  </ion-content>
+  <ion-footer class="ion-no-border ion-text-center footer-margin-top-bottom" mode="ios">
+    <ion-button mode="ios" class="btn-footer-general" (click)="next()">Enviar</ion-button>
+  </ion-footer>

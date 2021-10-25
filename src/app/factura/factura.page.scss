@@ -1,0 +1,38 @@
+ion-content{
+    --padding-bottom: 0px !important;
+}
+.p-factura{
+    color: #707070;
+    font-size: 1.125rem;
+    margin-bottom: 0px;
+    margin-top: 10%;
+}
+.item-padding-end{
+    --inner-padding-end: 0px;
+    width: 100%;
+    margin-top: 25%;
+}
+.input-form{
+    --background: #F2F2F2;
+    --color: #707070;
+    --placeholder-color: #707070;
+    --placeholder-opacity: 1;
+    border-radius: 9px;
+    height: 3.75rem;
+    border: 1px solid #D0D0D0;
+    --padding-start: 1.25rem !important;
+    --padding-end: 1.25rem;
+    width: 100%;
+    margin-bottom: 3%;
+}
+.titulo-margin-top{
+    margin-top: 25% !important;
+}
+@media screen and (min-width: 768px) 
+{
+    .item-padding-end{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+}

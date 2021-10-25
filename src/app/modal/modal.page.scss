@@ -1,0 +1,97 @@
+.div-central-modal{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    .div-content{
+        background: #F8F8F8;
+        width: 100%;
+        padding: 12% 0px 8% 0px;
+        position: relative;
+        .h5-font-color-hacer{
+            color: #6087A3 !important;
+        }
+        .btn-iniciciar-style{
+            --background: #F0D196;
+            --background-activated: #F0D196;
+            --background-hover: #F0D196;
+            --color-hover: #6087A3;
+            --color: #6087A3;
+            --color-activated: #6087A3;
+            --border-radius: 15px;
+            margin: 0px;
+            font-size: 1.125rem;
+            width: 88%;
+            height: 3.75rem;
+            --box-shadow: 0px 3px 6px #00000029;
+            margin-top: 4% !important;
+        }
+    }
+}
+.btn-color-modal{
+    --background: #6087A3 !important;
+    --background-activated: #6087A3 !important;
+    --background-hover: #6087A3 !important;
+    --color-hover: #ffffff !important;
+    --color: #ffffff !important;
+    --color-activated: #ffffff !important;
+}
+#btncambios{
+    --background: #FFFFFF !important;
+    --background-activated: #ffffff !important;
+    --background-hover: #ffffff !important;
+    --color-hover: #6087A3 !important;
+    --color: #6087A3 !important;
+    --color-activated: #6087A3 !important;
+    #iconright{
+        margin-right: 0.625rem;
+    }
+
+}
+#div-btn-absolute{
+    position: absolute;
+    width: 100%;
+    top: -6%;
+}
+.div-btn-top{
+    margin-top: 3%;
+}
+.btn-circle-top{
+    --background: #6287A2;
+    --background-activated: #6287A2;
+    --background-hover: #6287A2;
+    --box-shadow: 0px 3px 6px #00000029;
+    --border-radius: 50%;
+    --padding-start: 0px;
+    --padding-end: 0px;
+    width: 60px;
+    height: 60px;
+    ion-icon{
+        color: #fff;
+        font-size: 2.5rem;
+    }
+}
+@media screen and (min-width: 540px) 
+{
+    .div-central-modal{
+        .div-content{
+            .btn-iniciciar-style{
+                width: 70%;
+            }
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    .div-central-modal{
+        .div-content{
+            height: 100%;
+            .btn-iniciciar-style{
+                width: 45%;
+                margin-right: 2% !important;
+                margin-top: 2% !important;
+            }
+        }
+    }
+    #div-btn-absolute{
+        position: relative;
+    }
+}

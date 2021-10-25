@@ -1,0 +1,97 @@
+<!--<ion-header>
+  <ion-toolbar>
+    <ion-title>venta-sabor</ion-title>
+  </ion-toolbar>
+</ion-header>-->
+
+<ion-content [fullscreen]="true">
+  <ion-card mode="ios" class="card-header paddin-left-right-general ion-text-center">
+    <ion-card-title mode="ios" class="titulos-content" (click)="back()"><ion-icon name="arrow-back-outline" id="iconheader"></ion-icon> Sabor coco</ion-card-title>
+  </ion-card>
+  <div class="ion-text-end paddin-left-right-general div-check margin-top-conten-general">
+    <ion-checkbox mode="md" class="ion-checbox-venta"></ion-checkbox>
+    <ion-label mode="ios" class="family-poppins-regular p-cantidad-contenedor label-venta">Venta calle</ion-label>
+    <ion-item class="ion-no-padding item-slect item-margin-top-select" lines="none">
+      <ion-select placeholder="Nombre del cliente" mode="ios">
+        <ion-select-option value="f">Female</ion-select-option>
+        <ion-select-option value="m">Male</ion-select-option>
+      </ion-select>
+      <ion-icon name="chevron-down-outline" id="iconslect"></ion-icon>
+    </ion-item>
+  </div>
+  <ion-grid class="paddin-left-right-general">
+    <ion-row>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center car-activo">
+          <img src="assets/img/contenedor1.png" alt="contenedor1">
+          <h5 class="family-poppins-regular h5-tiutlo-card">Vasito</h5>
+        </ion-card>
+        <ion-row class="ion-align-items-center ion-justify-content-center row-contador-top">
+          <ion-col size="3">
+            <ion-button mode="ios" class="btn-add-rest ion-no-padding"><ion-icon name="add" class="icon-add-remove"></ion-icon></ion-button>
+          </ion-col>
+          <ion-col size="5">
+            <ion-input mode="ios" type="number" value="333" class="input-contador ion-no-padding"></ion-input>
+          </ion-col>
+          <ion-col size="3">
+            <ion-button mode="ios" class="btn-add-rest ion-no-padding"><ion-icon name="remove-outline" class="icon-add-remove"></ion-icon></ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center">
+          <img src="assets/img/contenedor4.png" alt="contenedor4" id="pequeno">
+          <h5 class="family-poppins-regular h5-tiutlo-card">200 gr</h5>
+        </ion-card>
+        <ion-row class="ion-align-items-center ion-justify-content-center row-contador-top">
+          <ion-col size="3">
+            <ion-button mode="ios" class="btn-add-rest ion-no-padding"><ion-icon name="add" class="icon-add-remove"></ion-icon></ion-button>
+          </ion-col>
+          <ion-col size="5">
+            <ion-input mode="ios" type="number" value="333" class="input-contador ion-no-padding"></ion-input>
+          </ion-col>
+          <ion-col size="3">
+            <ion-button mode="ios" class="btn-add-rest ion-no-padding"><ion-icon name="remove-outline" class="icon-add-remove"></ion-icon></ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center" >
+          <img src="assets/img/contenedor3.png" alt="contenedor3" id="mediano">
+          <h5 class="family-poppins-regular h5-tiutlo-card">500 gr</h5>
+        </ion-card>
+        <ion-row class="ion-align-items-center ion-justify-content-center row-contador-top">
+          <ion-col size="3">
+            <ion-button mode="ios" class="btn-add-rest ion-no-padding"><ion-icon name="add" class="icon-add-remove"></ion-icon></ion-button>
+          </ion-col>
+          <ion-col size="5">
+            <ion-input mode="ios" type="number" value="333" class="input-contador ion-no-padding"></ion-input>
+          </ion-col>
+          <ion-col size="3">
+            <ion-button mode="ios" class="btn-add-rest ion-no-padding"><ion-icon name="remove-outline" class="icon-add-remove"></ion-icon></ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center" >
+          <img src="assets/img/contenedor2.png" alt="contenedor2" id="grande">
+          <h5 class="family-poppins-regular h5-tiutlo-card">1kg</h5>
+        </ion-card>
+        <ion-row class="ion-align-items-center ion-justify-content-center row-contador-top">
+          <ion-col size="3">
+            <ion-button mode="ios" class="btn-add-rest ion-no-padding"><ion-icon name="add" class="icon-add-remove"></ion-icon></ion-button>
+          </ion-col>
+          <ion-col size="5">
+            <ion-input mode="ios" type="number" value="333" class="input-contador ion-no-padding"></ion-input>
+          </ion-col>
+          <ion-col size="3">
+            <ion-button mode="ios" class="btn-add-rest ion-no-padding"><ion-icon name="remove-outline" class="icon-add-remove"></ion-icon></ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<ion-footer class="ion-no-border ion-text-center footer-margin-top-bottom" mode="ios">
+  <ion-button mode="ios" class="btn-footer-general" (click)="next()">Agregar mas sabores</ion-button>
+</ion-footer>

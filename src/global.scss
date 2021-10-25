@@ -1,0 +1,414 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+/* estilos de letras */
+@font-face{
+    font-family: PoppinsMedium;
+    src : url('/assets/font/Poppins-Medium.ttf')
+}
+@font-face{
+    font-family: PoppinsSemiBold;
+    src : url('/assets/font/Poppins-SemiBold.ttf')
+}
+@font-face{
+    font-family: PoppinsRegular;
+    src : url('/assets/font/Poppins-Regular.otf')
+}
+.family-poppins-medium{
+    font-family: PoppinsMedium !important;
+}
+.family-poppins-semi-bold{
+    font-family: PoppinsSemiBold !important;
+}
+.family-poppins-regular{
+    font-family: PoppinsRegular !important;
+}
+ion-content{
+    --padding-bottom: 10%;
+}
+/* estilos de modal */
+.my-custom-class {
+    --background: #00000015;
+    
+    ion-content{
+        --background: rgb(0 0 0 / 60%);
+        border: 1xp solid #707070;
+        --padding-bottom: 0px !important;
+    }
+}
+.my-custom-class-facturacion{
+    --background: #6087a3e6;
+    
+    ion-content{
+        --background: rgb(96 135 163 / 40%);
+        border: 1xp solid #707070;
+        --padding-bottom: 0px !important;
+    }
+}
+
+/* estilos genereales*/
+.div-contenedor{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 3.75rem;
+    width: 100%;
+    border-bottom: 0.1875rem solid #6287A2;
+    padding-bottom: 0.5625rem;
+    #contenedor1{
+        width: 60%;
+    }
+    #contenedor2{
+        width: 40%;
+    }
+    #contenedor3{
+        width: 50%;
+    }
+    #contenedor4{
+        width: 65%;
+    }
+}
+.col-padding-left-right{
+    padding-left: 0.875rem;
+    padding-right: 0rem;
+}
+.title-ontenedores{
+    color: #707070;
+    font-family: PoppinsSemiBold;
+    font-size: 0.9375rem;
+}
+.p-cantidad-contenedor{
+    color: #707070;
+    font-size: 0.9375rem;
+    font-family: PoppinsRegular;
+}
+.titulos-content{
+    color: #707070;
+    font-family: PoppinsMedium;
+    font-size: 1.625rem;
+}
+.title-contenor-margint-top{
+    margin-top: 0px;
+}
+.col-margin-top-padding-start-end{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+}
+.grid-padding-contendor{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 5%;
+}
+.col-padding-cero-top{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+}
+.col-fondo-radius{
+    background-color: #F8F8F8;
+    border-radius: 18px;
+}
+.titulo-margin-top{
+    margin-top: 15%;
+    margin-bottom: 0px;
+}
+.btn-footer-general{
+    font-family: PoppinsRegular;
+    --background: #6087A3;
+    --background-activated: #6087A3;
+    --background-hover: #6087A3;
+    --color-hover: #FFFFFF;
+    --color: #FFFFFF;
+    --color-activated: #ffffff;
+    --border-radius: 15px;
+    margin: 0px;
+    font-size: 1.125rem;
+    width: 88%;
+    height: 3.75rem;
+}
+.footer-margin-top-bottom{
+    padding: 5% 0% 10%;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 60%, rgba(255,255,255,1) 100%);
+}
+/* espacio del contenido*/
+.paddin-left-right-general{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+/* estilos de header */
+.card-header{
+    margin: 0;
+    box-shadow: none;
+    margin-top: 12% !important;
+    ion-card-title{
+        font-weight: 100;
+        #iconheader{
+            float: left;
+            margin-top: 1%;
+        }
+    }
+}
+.margin-top-conten-general{
+    margin-top: 10%;
+}
+.card-content{
+    width: 100%;
+    box-shadow: 0px 3px 15px #00000029;
+    border: 1px solid #D8D8D8;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10% 10%;
+    .h5-tiutlo-card{
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 10%;
+        font-size: 1.125rem;
+        color: #707070;
+    }
+}
+.car-activo{
+    background: #7FC7BC;
+    .h5-tiutlo-card{
+        color: #ffffff !important;
+    }
+}
+.div-check{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.label-venta{
+    margin-left: 2%;
+}
+.ion-checbox-venta{
+    --background: #FFFFFF;
+    --background-checked: #6087A3;
+    --border-color: #6087A3;
+    --border-color-checked: #6087A3;
+    --border-radius: 5px;
+    --border-style: solid;
+    --border-width: 1px;
+    --checkmark-color: #ffffff;
+    --size: 6%;
+    --checkmark-width: 3px
+}
+.item-slect{
+    width: 100%;
+    position: relative;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    --inner-padding-end: 0px;
+    ion-select{
+        width: 100%;
+        background-color: #F2F2F2;
+        border: 1px solid #D0D0D0;
+        border-radius: 9px;
+        --padding-start: 1.25rem;
+        --padding-end: 12.5%;
+        height: 3.75rem;
+    }
+    ion-select::part(placeholder),
+    ion-select::part(text){
+        color: #6087A3;
+        opacity: 1;
+        font-family: PoppinsRegular;
+    }
+    ion-select::part(icon) {
+        display: none;
+    }
+    #iconslect{
+        position: absolute;
+        right: 5%;
+        top: 24%;
+        color: #6087A3;
+        z-index: 99999;
+    }
+    ion-datetime{
+        width: 100%;
+        --placeholder-color: #6087A3;
+        background-color: #F2F2F2;
+        border: 1px solid #D0D0D0;
+        border-radius: 9px;
+        --padding-start: 1.25rem;
+        --padding-end: 12.5%;
+        height: 3.75rem;
+        color: #6087A3;
+        font-family: PoppinsRegular;
+        display: flex;
+        align-items: center;
+    }
+    ion-datetime::part(placeholder),
+    ion-datetime::part(text){
+        color: #6087A3;
+        opacity: 1;
+        font-family: PoppinsRegular;
+    }
+}
+.item-margin-top-select{
+    margin-top: 5%;
+}
+.btn-add-rest{
+    width: 100%;
+    --background: transparent;
+    --background-activated: transparent;
+    --background-hover: transparent;
+    margin: 0;
+    --color: #707070;
+    font-size: 1.25rem;
+    font-family: PoppinsRegular;
+    height: auto;
+}
+.input-contador{
+    text-align: center;
+    --color: #707070;
+    font-family: PoppinsRegular;
+    font-size: 1.5625rem;
+}
+.row-contador-top{
+    margin-top: 5%;
+}
+.div-conten-completo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-image: url('/assets/img/img-fondo.png');
+    background-position: 60% 22%;
+    background-size: 48%;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    .p-widht-centrado{
+        width: 100%;
+        font-size: 1.25rem;
+        color: #707070;
+    }
+}
+#imgwidht{
+    width: 35%;
+    margin-bottom: 20%;
+}
+@media screen and (min-width: 500px) 
+{
+    .btn-footer-general{
+        width: 70%;
+    }
+    .grid-padding-contendor{
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        margin-top: 10%
+    }
+    .footer-margin-top-bottom{
+        padding: 8% 0px;
+    }
+    .col-margin-top-padding-start-end{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .col-padding-cero-top{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .paddin-left-right-general{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media screen and (min-width: 768px)
+{
+    .titulo-margin-top{
+        margin-top: 10%;
+    }
+    .card-header{
+        margin-top: 7% !important;
+    }
+    .titulos-content{
+        font-size: 2rem;
+    }
+    .col-padding-left-right{
+        padding-left: 2rem;
+    }
+    .grid-padding-contendor{
+        margin-top: 5%;
+    }
+    .col-margin-top-padding-start-end{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .col-padding-cero-top{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .p-cantidad-contenedor{
+        font-size: 1.125rem;
+    }
+    .title-ontenedores{
+        font-size: 1.125rem;
+    }
+    .btn-footer-general{
+        width: 50%;
+    }
+    .div-conten-completo{
+        background-position: 60% 18%;
+        background-size: 45%;
+        .p-widht-centrado{
+            font-size: 2rem;
+        }
+    }
+    #imgwidht{
+        margin-bottom: 10%;
+    }
+    .col-padding-left-right{
+        padding-left: 3rem;
+    }
+    .grid-padding-contendor{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .btn-footer-general{
+        width: 40%;
+    }
+}
+@media screen and (min-width: 1024px)
+{
+    .grid-padding-contendor{
+        margin-top: 11%;
+    }
+    .div-conten-completo{
+        background-position: 58% 22%;
+    }
+}

@@ -1,0 +1,74 @@
+<!--<ion-header>
+  <ion-toolbar>
+    <ion-title>venta-sabor</ion-title>
+  </ion-toolbar>
+</ion-header>-->
+
+<ion-content [fullscreen]="true">
+  <ion-card mode="ios" class="card-header paddin-left-right-general ion-text-center">
+    <ion-card-title mode="ios" class="titulos-content" (click)="back()"><ion-icon name="arrow-back-outline" id="iconheader"></ion-icon> Nueva venta</ion-card-title>
+  </ion-card>
+  <div class="ion-text-end paddin-left-right-general div-check margin-top-conten-general">
+    <ion-checkbox mode="md" class="ion-checbox-venta"></ion-checkbox>
+    <ion-label mode="ios" class="family-poppins-regular p-cantidad-contenedor label-venta">Venta calle</ion-label>
+    <ion-item class="ion-no-padding item-slect item-margin-top-select" lines="none">
+      <ion-select placeholder="Escoge cliente" mode="ios">
+        <ion-select-option value="f">Female</ion-select-option>
+        <ion-select-option value="m">Male</ion-select-option>
+      </ion-select>
+      <ion-icon name="chevron-down-outline" id="iconslect"></ion-icon>
+    </ion-item>
+  </div>
+  <ion-grid class="paddin-left-right-general">
+    <ion-row>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center car-activo" (click)="sabores()">
+          <img src="assets/img/contenedor1.png" alt="contenedor1">
+          <h5 class="family-poppins-regular h5-tiutlo-card">Surtido</h5>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center">
+          <img src="assets/img/contenedor1.png" alt="contenedor1">
+          <h5 class="family-poppins-regular h5-tiutlo-card">Surtido</h5>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center">
+          <img src="assets/img/contenedor1.png" alt="contenedor1">
+          <h5 class="family-poppins-regular h5-tiutlo-card">Surtido</h5>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center">
+          <img src="assets/img/contenedor1.png" alt="contenedor1">
+          <h5 class="family-poppins-regular h5-tiutlo-card">Surtido</h5>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center">
+          <img src="assets/img/contenedor1.png" alt="contenedor1">
+          <h5 class="family-poppins-regular h5-tiutlo-card">Surtido</h5>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center">
+          <img src="assets/img/contenedor1.png" alt="contenedor1">
+          <h5 class="family-poppins-regular h5-tiutlo-card">Surtido</h5>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center">
+          <img src="assets/img/contenedor1.png" alt="contenedor1">
+          <h5 class="family-poppins-regular h5-tiutlo-card">Surtido</h5>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6" size-md="4">
+        <ion-card class="ion-no-margin card-content ion-text-center">
+          <img src="assets/img/contenedor1.png" alt="contenedor1">
+          <h5 class="family-poppins-regular h5-tiutlo-card">Surtido</h5>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

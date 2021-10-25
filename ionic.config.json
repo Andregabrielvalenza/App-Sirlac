@@ -1,0 +1,7 @@
+{
+  "name": "app-sirlac",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
